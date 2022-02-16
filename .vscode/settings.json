@@ -17,7 +17,7 @@
   "C_Cpp_Runner.includePaths": [],
   "C_Cpp_Runner.includeSearch": [
     "*",
-    "**/*"
+    "**/*",
   ],
   "C_Cpp_Runner.excludeSearch": [
     "**/build",
@@ -28,5 +28,6 @@
     "**/.vscode/**"
   ],
   "C_Cpp.errorSquiggles": "Enabled",
-  "C_Cpp.codeAnalysis.clangTidy.enabled": true
+  "C_Cpp.codeAnalysis.clangTidy.enabled": true,
+  "files.autoSave": "afterDelay"
 }
