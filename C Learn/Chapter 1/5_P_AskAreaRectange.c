@@ -6,7 +6,7 @@ int main()
     printf ("The length of rectangle is ");
     scanf ("%f",&a);
 
-    printf ("The breadt of rectangle is ");
+    printf ("The breadth of rectangle is ");
     scanf ("%f",&b);
 
     printf ("The area of rectangle is %f", a*b );
