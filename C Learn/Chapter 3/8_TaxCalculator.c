@@ -19,7 +19,7 @@ int main()
     else if(500000<I && I<=1000000)
         {
             float B = (20/100)*I ;
-            printf("You will pay 20 percent tax which is equal to %f \n", B );
+            printf("You will pay 20 percent tax which is equal to %f \n", B  );
         }
 
     else if(1000000<I)
