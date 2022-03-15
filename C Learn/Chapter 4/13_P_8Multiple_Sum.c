@@ -5,6 +5,9 @@ int main()
     int product=0, n;
 
     for(n=1; n<11; n++)
+    
+    // The Normal Answer
+    // 
     // {
     //     product+=8*n;
     // }

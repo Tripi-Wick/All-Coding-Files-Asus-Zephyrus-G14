@@ -7,3 +7,17 @@
 // Prior
 // then ++a ------->> Pehle increment kro fir print karo
 // then --a ------->> Pehle decrement kro fir print karo
+
+// Add the Number
+// += operator
+
+// Add the Product
+// *= operator
+
+// Add the Quotient
+// /=
+
+// Add the Remainder
+// %=
+
+
