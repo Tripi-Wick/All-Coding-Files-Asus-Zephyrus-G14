@@ -4,7 +4,7 @@ int main()
 {
     int n;
 
-    printf("Enter the number whose multipication table is required in reversed order ");
+    printf("Enter the number whose multiplication table is required in reversed order ");
     scanf("%d",&n);
 
     int a=10;
