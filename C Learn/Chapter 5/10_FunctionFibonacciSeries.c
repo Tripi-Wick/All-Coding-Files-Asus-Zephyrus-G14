@@ -11,13 +11,7 @@ int main()
 }
 
 int fib(int a){
-    int b=0,c=1,n=1;
-    
-    if(a!=n){
-        b+=c,
-        b=c;
-        n++;
-        return b;
-    }
+    if(a==0||a==1){return 0;}
+    else{return (fib(a-1)+fib(a-2));}   
 }
 
