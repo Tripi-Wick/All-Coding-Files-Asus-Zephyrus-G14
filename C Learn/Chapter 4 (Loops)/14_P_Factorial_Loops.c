@@ -37,14 +37,14 @@ int main()
     // printf("%d",factorial);
 
     // Value of factorial by do while loop
-    // do
-    // {
-    //     factorial*=n;
-    //     n--;
-    // }
-    // while(n>0);
+    do
+    {
+        factorial*=n;
+        n--;
+    }
+    while(n>0);
 
-    // printf("%d",factorial);
+    printf("%d",factorial);
 
     return 0;
 }

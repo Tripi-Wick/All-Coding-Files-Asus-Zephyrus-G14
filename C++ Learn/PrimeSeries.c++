@@ -1,14 +1,20 @@
-#include <stdio.h>
-
+#include<stdio.h>
 int main()
 {
-    int n;
-
-    printf("Enter the amount of prime numbers you wanna see "); scanf("%d",&n);
-
-    for(int b=0,a=1; b!=n; a++,b++)
+    int n,i,fact,j;
+    printf("Enter the Number");
+    scanf("%d",&n);
+    printf("Prime Numbers are: \n");
+    for(i=1; i<=n; i++)
     {
-        printf("%d\n",6*a-1);
+        fact=0;
+        for(j=1; j<=n; j++)
+        {
+            if(i%j==0)
+                fact++;
+        }
+        if(fact==2)
+            printf("%d " ,i);
     }
     return 0;
 }

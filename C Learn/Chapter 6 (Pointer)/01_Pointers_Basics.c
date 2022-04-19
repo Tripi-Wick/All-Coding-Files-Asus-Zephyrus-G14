@@ -6,7 +6,7 @@ int main()
     int *j = &i;
 
     printf("Value of i %d \n", i);
-    printf("Value of i %d \n", (*j));
+    printf("Value of i %d \n", *j);
     printf("Value of J %d \n", &(*j));
     printf("Value of J %d \n", j);
     printf("Address of i %u \n", j);
