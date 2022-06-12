@@ -16,13 +16,13 @@ int main()
 //     ptr1= ptr1 + 1;
 //     printf("The value of pointer after addition %u\n",ptr1);
 
-// // Substraction of a number from pointer
+// // Subtraction of a number from pointer
 
-//     printf("The value of pointer before Substraction %u\n",ptr1);
+//     printf("The value of pointer before Subtraction %u\n",ptr1);
 //     ptr1= ptr1 - 1;
-//     printf("The value of pointer after Substraction %u\n",ptr1);
+//     printf("The value of pointer after Subtraction %u\n",ptr1);
 
-// // Substraction of a Pointer from Pointer
+// // Subtraction of a Pointer from Pointer
 
     // ptr6 = ptr5 - ptr4;
     // printf("So the value of pointer is %u\n",ptr6);

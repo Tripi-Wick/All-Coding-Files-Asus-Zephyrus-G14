@@ -12,7 +12,7 @@ int main()
     //     product+=8*n;
     // }
 
-    // The thing I fucking Wanted to Create rom two days 
+    // The thing I fucking Wanted to Create from two days 
     // {
     //     printf("%d+%d",product,8*n);
     //     printf("=%d\n",product+=8*n);

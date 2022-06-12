@@ -1,30 +1,19 @@
 #include <stdio.h>
-#include <math.h>
 int count(int);
 
 
 int main() {
 	
-    int n;
+    int n,x;
+
     printf("Enter a number:");
     scanf("%d", &n);
-    int a,c;
-    static int sum;
 
-    int x=count(n);
+    x=count(n);
     printf("%d\n",x);
 
-    while(n>0){
-        c=n/(pow(10,x));
-        a=n%((int)pow(10,x));
-        sum=+c;
-        c=a;
-        x--;
-    }
-
-    
-    printf("%d\n",sum);
     return 0;
+
 }
 
 int count(int n){
