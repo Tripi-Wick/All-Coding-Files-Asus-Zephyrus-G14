@@ -32,6 +32,8 @@ int main()
         if(computer==2 && player==3){printf("***player WIN***");break;}
         if(computer==3 && player==1){printf("***player WIN***");break;}
         if(computer==3 && player==2){printf("***player LOOSE***");break;}
+        
+        fflush(stdin);
 
     }while(computer=player);
 
