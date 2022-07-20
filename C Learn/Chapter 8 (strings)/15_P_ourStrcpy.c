@@ -7,13 +7,15 @@ int main()
     char str1[]="trippi";
     char str2[]="Tripi Wick";
 
-    printf("Value of str1 before using cpy is %s\n",str1);
+    printf("Value of str1 is %s\n",str1);
+    printf("Value of str2 before using cpy is %s\n",str2);
     CopyString(str2 , str1);
     printf("Value of str2 after using cpy is %s\n",str1);
 
 
     return 0;
 }
+
 char CopyString(char* target ,char* source){
 
     int i=0;

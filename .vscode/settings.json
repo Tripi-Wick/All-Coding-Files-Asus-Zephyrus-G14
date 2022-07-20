@@ -9,6 +9,10 @@
         "Tripi"
     ],
     "files.associations": {
-        "random": "c"
-    }
+        "random": "c",
+        "sstream": "c",
+        "regex": "c",
+        "stdio.h": "c"
+    },
+    "C_Cpp.errorSquiggles": "Enabled"
 }
