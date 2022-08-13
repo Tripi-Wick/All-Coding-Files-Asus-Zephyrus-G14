@@ -1,36 +1,53 @@
 #include <stdio.h>
+#include <math.h>
 
-flip(int *, int);
-void swap(char *, char *);
+void flip(int n1, int n2);
+
+void swap(int* ,int*);
 
 int main()
 {
-    int n2;
-    char n1[100];
-    printf("Enter a number :: ");
-    scanf("%s", &n1);
-    printf("Enter the number after which you want to flip the digits :: ");
-    scanf("%d", &n2);
-    printf("************Number Before FLip************\n");
-    printf("%s", n1);
-    flip(n1, n2);
+	int num1,num2;
+    printf("Enter a number: ");scanf("%d",&num1);
+    printf("Enter the number from where you wanna flip this number: ");scanf("%d",&num2);
 
-    return 0;
+	flip(num1,num2);
+
+
 }
 
-flip(int *ptr, int x)
+void flip(int n1, int n2)
 {
-    for (int i = 0; i < x; i++)
-    {
-        ptr++;
+
+	int arr[n1],i=0;
+	static int j=1;
+
+	do{
+		j = n1%10;
+		j++;
+	}while(j > 10);
+
+	while(n1 > 10){
+		arr[i]= n1 % (int)(pow(10,j));
+		i++;
+		j--;
+	}
+
+        
+    
+    for(int a= n2; n2 < i/2; n2++){
+    swap(&arr[a],&arr[j]);
+    j--;
     }
-    while(*ptr)
+
+    for(int i=0; i<i; i++){
+        printf("%d ",arr[i]);
+    }
 }
 
-void swap(char *ptr1, char *ptr2)
-{
-    char temp;
-    temp = *ptr1;
-    *ptr1 = *ptr2;
-    *ptr2 = temp;
+void swap(int* a,int* b){
+    int temp;
+    temp=*a;
+    *a=*b;
+    *b=temp;
 }

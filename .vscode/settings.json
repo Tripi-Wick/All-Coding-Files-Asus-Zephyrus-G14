@@ -1,18 +1,27 @@
 {
     "cSpell.words": [
         "Bhai",
+        "divya",
+        "Joshi",
         "Kaur",
-        "lapi",
         "Movieflix",
-        "Pehle",
+        "playsound",
+        "Preet",
+        "suhaib",
         "Sukhvinder",
-        "Tripi"
+        "Tripi",
+        "Trippi",
+        "Trppi",
+        "yash"
     ],
     "files.associations": {
         "random": "c",
         "sstream": "c",
         "regex": "c",
-        "stdio.h": "c"
+        "stdio.h": "c",
+        "chrono": "c",
+        "limits": "c",
+        "valarray": "c"
     },
     "C_Cpp.errorSquiggles": "Enabled"
 }
