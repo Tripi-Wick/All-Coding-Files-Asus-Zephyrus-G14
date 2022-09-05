@@ -1,24 +1,31 @@
 #include <iostream>
+#include <cstdio>
 using namespace std;
-class Distance
-{
-   int feet;
-   float inches;
 
-public:
-   Distance(int x, float y)
-   {
-      feet = x;
-      inches = y;
-      feet = feet + inches / 12;
-      int i = inches / 12;
-      inches = inches - 12 * i;
-      cout << "\n Feet:" << feet;
-      cout << "\n Inches:" << inches;
-   }
-};
-int main()
-{
-   Distance obj(40, 69.999);
-   return 0;
+int main() {
+    int a,b;
+    cin>>a>>b;
+    
+    for(int n = a; n<=b; n++){
+        if(0<n && n<10){
+            switch(n){
+                case 1: cout<<"one"<<endl;break;
+                case 2: cout<<"two"<<endl;break;
+                case 3: cout<<"three"<<endl;break;
+                case 4: cout<<"four"<<endl;break;
+                case 5: cout<<"five"<<endl;break;
+                case 6: cout<<"six"<<endl;break;
+                case 7: cout<<"seven"<<endl;break;
+                case 8: cout<<"eight"<<endl;break;
+                case 9: cout<<"nine"<<endl;break;
+            }
+        }
+        else if(n>9 && n%2==0){
+            cout<<"even\n";
+            }
+        else {
+            cout<<"odd\n";
+            }
+    }
+    return 0;
 }

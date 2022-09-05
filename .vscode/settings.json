@@ -21,7 +21,9 @@
         "stdio.h": "c",
         "chrono": "c",
         "limits": "c",
-        "valarray": "c"
+        "valarray": "c",
+        "ostream": "cpp",
+        "iostream": "cpp"
     },
     "C_Cpp.errorSquiggles": "Enabled"
 }
