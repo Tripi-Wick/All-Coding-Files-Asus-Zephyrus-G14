@@ -1,31 +1,75 @@
 #include <iostream>
-#include <cstdio>
 using namespace std;
 
-int main() {
-    int a,b;
-    cin>>a>>b;
-    
-    for(int n = a; n<=b; n++){
-        if(0<n && n<10){
-            switch(n){
-                case 1: cout<<"one"<<endl;break;
-                case 2: cout<<"two"<<endl;break;
-                case 3: cout<<"three"<<endl;break;
-                case 4: cout<<"four"<<endl;break;
-                case 5: cout<<"five"<<endl;break;
-                case 6: cout<<"six"<<endl;break;
-                case 7: cout<<"seven"<<endl;break;
-                case 8: cout<<"eight"<<endl;break;
-                case 9: cout<<"nine"<<endl;break;
-            }
-        }
-        else if(n>9 && n%2==0){
-            cout<<"even\n";
-            }
-        else {
-            cout<<"odd\n";
-            }
-    }
-    return 0;
+void Array1(int A[], int n)
+{
+   int max = 0, min = A[0];
+   for (int i = 0; i < n; i++)
+   {
+      if (A[i] > max)
+      {
+         max = A[i];
+      }
+      if (A[i] < min)
+      {
+         min = A[i];
+      }
+   }
+   cout << "Max is: " << max << " and Min is: " << min << endl;
+}
+
+
+void Array2(int m, int n, int *B)
+{
+   int max = INT_MIN;
+   int min = INT_MAX;
+   for (int i = 0; i < m; i++)
+   {
+      for (int j = 0; j < n; j++)
+      {
+         if (*B > max)
+         {
+            max = *B;
+         }
+         if (*B < min)
+         {
+            min = *B;
+         }
+      }
+   }
+   cout << "Max is: " << max << " and Min is: " << min << endl;
+}
+
+
+
+int main()
+{
+   int a, m, n, A[a];
+
+   cout << "Enter size of A and B: ";
+   cin >> a >> m >> n;
+
+   int B[m][n];
+
+   cout << "Enter elements of A" << endl;
+   for (int i = 0; i < a; i++)
+   {
+      cin >> A[i];
+   }
+
+   cout << "Enter elements of B" << endl;
+   
+   for (int i = 0; i < n; i++)
+   {
+      for (int j = 0; j < m; j++)
+      {
+         cin >> B[i][j];
+      }
+      cout << endl;
+   }
+
+   Array1(A, a);
+   Array2(m, n, &B[0][0]);
+
+   return 0;
 }
