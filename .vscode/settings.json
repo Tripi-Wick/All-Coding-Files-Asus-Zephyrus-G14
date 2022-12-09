@@ -2,6 +2,7 @@
     "cSpell.words": [
         "Bhai",
         "divya",
+        "dtype",
         "Joshi",
         "Kaur",
         "Movieflix",
@@ -23,7 +24,9 @@
         "limits": "c",
         "valarray": "c",
         "ostream": "cpp",
-        "iostream": "cpp"
+        "iostream": "cpp",
+        "new": "cpp",
+        "iterator": "cpp"
     },
     "C_Cpp.errorSquiggles": "Enabled"
 }

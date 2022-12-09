@@ -1,75 +1,70 @@
 #include <iostream>
+#include <sstream>
 using namespace std;
 
-void Array1(int A[], int n)
-{
-   int max = 0, min = A[0];
-   for (int i = 0; i < n; i++)
-   {
-      if (A[i] > max)
-      {
-         max = A[i];
-      }
-      if (A[i] < min)
-      {
-         min = A[i];
-      }
-   }
-   cout << "Max is: " << max << " and Min is: " << min << endl;
+class Student{
+    private:
+        int age;
+        string first_name;
+        string last_name;
+        int standard;
+    public:
+        int set_age(int age);
+        int set_standard(int standard);
+        string set_first_name(string first_name);
+        string set_last_name(string last_name);
+        int get_age();
+        int get_standard();
+        string get_first_name();
+        string get_last_name();
+        string to_string();
+};
+
+int Student :: set_age(int age){
+    cin>>age;
+}
+int Student :: set_standard(int standard){
+    cin>>standard;
+}
+string Student :: set_first_name(string first_name){
+    cin>>first_name;
+}
+string Student :: set_last_name(string last_name){
+    cin>>last_name;
+}
+int Student :: get_age(){
+    cout<<age;
+}
+int Student :: get_standard(){
+    cout<<standard;
+}
+string Student :: get_first_name(){
+    cout<<first_name;
+}
+string Student :: get_last_name(){
+    cout<<last_name;
+}
+string Student :: to_string(){
+    cout<<age<<","<<first_name<<","<<last_name<<","<<standard;
 }
 
-
-void Array2(int m, int n, int *B)
-{
-   int max = INT_MIN;
-   int min = INT_MAX;
-   for (int i = 0; i < m; i++)
-   {
-      for (int j = 0; j < n; j++)
-      {
-         if (*B > max)
-         {
-            max = *B;
-         }
-         if (*B < min)
-         {
-            min = *B;
-         }
-      }
-   }
-   cout << "Max is: " << max << " and Min is: " << min << endl;
-}
-
-
-
-int main()
-{
-   int a, m, n, A[a];
-
-   cout << "Enter size of A and B: ";
-   cin >> a >> m >> n;
-
-   int B[m][n];
-
-   cout << "Enter elements of A" << endl;
-   for (int i = 0; i < a; i++)
-   {
-      cin >> A[i];
-   }
-
-   cout << "Enter elements of B" << endl;
-   
-   for (int i = 0; i < n; i++)
-   {
-      for (int j = 0; j < m; j++)
-      {
-         cin >> B[i][j];
-      }
-      cout << endl;
-   }
-
-   Array1(A, a);
-   Array2(m, n, &B[0][0]);
-
-   return 0;
+int main() {
+    int age, standard;
+    string first_name, last_name;
+    
+    cin >> age >> first_name >> last_name >> standard;
+    
+    Student st;
+    st.set_age(age);
+    st.set_standard(standard);
+    st.set_first_name(first_name);
+    st.set_last_name(last_name);
+    
+    cout << st.get_age() << "\n";
+    cout << st.get_last_name() << ", " << st.get_first_name() << "\n";
+    cout << st.get_standard() << "\n";
+    cout << "\n";
+    cout << st.to_string();
+    
+    return 0;
 }
