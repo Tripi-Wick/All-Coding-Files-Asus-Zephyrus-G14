@@ -3,11 +3,17 @@
         "Bhai",
         "divya",
         "dtype",
+        "figsize",
+        "imshow",
         "Joshi",
         "Kaur",
+        "keras",
+        "mnist",
         "Movieflix",
         "playsound",
         "Preet",
+        "seaborn",
+        "sklearn",
         "suhaib",
         "Sukhvinder",
         "Tripi",
@@ -26,7 +32,17 @@
         "ostream": "cpp",
         "iostream": "cpp",
         "new": "cpp",
-        "iterator": "cpp"
+        "iterator": "cpp",
+        "string": "cpp"
     },
-    "C_Cpp.errorSquiggles": "Enabled"
+    "C_Cpp.errorSquiggles": "Enabled",
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./Python Learn",
+        "-p",
+        "*test.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.unittestEnabled": true
 }
