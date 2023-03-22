@@ -1,0 +1,3 @@
+Hello This is example of opening a file in cpp.
+THis is line 2
+This is line 3

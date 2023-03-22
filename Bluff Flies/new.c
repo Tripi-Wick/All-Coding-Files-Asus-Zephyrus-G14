@@ -3,18 +3,11 @@
 int main()
 
 {
-    int n;
-
-    printf("Enter the number of lies of pattern you want to see: ");
-    scanf("%d", &n);
-
-    for (int i = 0; i < n; i++)
-    {
-        for (int j = n; i != j; j--)
-        {
-            printf("%d", n - j + 1);
-        }
-        printf("\n");
+    int x =1 ;
+    while (x++<10){
+        printf("%d",x--);
+        continue;x++;
     }
+   
     return 0;
 }

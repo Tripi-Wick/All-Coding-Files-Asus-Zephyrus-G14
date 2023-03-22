@@ -14,7 +14,7 @@ void show(emp em){
 int main()
 {
     struct employee e1;
-    struct employee *ptr;
+    emp *ptr;
     ptr=&e1;
 
     strcpy(e1.name,"Tori");
