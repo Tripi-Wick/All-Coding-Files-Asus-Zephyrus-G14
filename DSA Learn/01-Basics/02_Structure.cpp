@@ -15,7 +15,7 @@ int main()
 {
     struct Area A1; // ---------> If we dont use typedef we have to write this way
 
-    Par p1;
+    Parameter p1;
     p1.x = 1;
     p1.y = 2;
     cout<<p1.x<<endl;

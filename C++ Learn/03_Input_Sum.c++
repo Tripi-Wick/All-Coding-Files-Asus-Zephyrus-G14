@@ -10,7 +10,7 @@ int main()
 
     int num2;
     cout << "Enter number 2:- ";
-    cin >> num2;
+    cin >> num2; 
 
     int num3 = num1 + num2;
     cout << "The value of their sum is ";
