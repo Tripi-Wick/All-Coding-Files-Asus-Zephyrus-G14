@@ -20,7 +20,7 @@ lower_Triangular_Matrix :: lower_Triangular_Matrix(){}
 
 lower_Triangular_Matrix :: lower_Triangular_Matrix(int size){
     this->dim = size;
-    arr = new int[(size*(size+1))/2];
+    arr = new int[(size*(size+1))/2]{};
 }
 
 lower_Triangular_Matrix :: ~lower_Triangular_Matrix(){

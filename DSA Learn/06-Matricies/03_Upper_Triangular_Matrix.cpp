@@ -20,7 +20,7 @@ upper_Triangular_Matrix :: upper_Triangular_Matrix(){}
 
 upper_Triangular_Matrix :: upper_Triangular_Matrix(int dim){
     this->dim = dim;
-    arr = new int[(dim*(dim+1))/2];
+    arr = new int[(dim*(dim+1))/2]{};
 }
 
 upper_Triangular_Matrix :: ~upper_Triangular_Matrix(){

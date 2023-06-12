@@ -20,7 +20,7 @@ Symmetric_Matrix :: Symmetric_Matrix(){}
 
 Symmetric_Matrix :: Symmetric_Matrix(int size){
     this->dim = size;
-    arr = new int[size*(size+1)/2];
+    arr = new int[size*(size+1)/2]{};
 }
 
 Symmetric_Matrix :: ~Symmetric_Matrix(){

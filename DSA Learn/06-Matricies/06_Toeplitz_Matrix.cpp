@@ -20,7 +20,7 @@ toeplitz_matrix :: toeplitz_matrix(){}
 
 toeplitz_matrix :: toeplitz_matrix(int size){
     this->dim = size;
-    arr = new int[2*size-1];
+    arr = new int[2*size-1]{};
 }
 
 toeplitz_matrix :: ~toeplitz_matrix(){

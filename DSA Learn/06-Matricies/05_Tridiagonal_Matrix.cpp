@@ -20,7 +20,7 @@ tri_diagonal_matrix :: tri_diagonal_matrix(){}
 
 tri_diagonal_matrix :: tri_diagonal_matrix(int size){
     this->dim = size;
-    arr = new int[3*size-2];
+    arr = new int[3*size-2]{};
 }
 
 tri_diagonal_matrix :: ~tri_diagonal_matrix(){

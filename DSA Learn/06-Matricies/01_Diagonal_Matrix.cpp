@@ -17,7 +17,7 @@ Scaling_Matrix :: Scaling_Matrix(){
 
 Scaling_Matrix :: Scaling_Matrix(int n){
     size = n;
-    a = new int[n];
+    a = new int[n]{};
     length = 0;
 }
 
