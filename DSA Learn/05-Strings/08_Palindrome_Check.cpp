@@ -1,8 +1,6 @@
 #include <iostream>
 using namespace std;
 
-
-
 int main()
 {
     int n,x=0,j=0,i=0;
