@@ -18,3 +18,4 @@ int main()
 
 // Reference is just a nickname to the the variable.
 // Reference must be declared at the time of formation else will get a error
+// Reference variable can change the original value of the data.
