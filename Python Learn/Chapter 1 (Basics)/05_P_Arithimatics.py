@@ -3,3 +3,4 @@
 # Divide ---- '//'   (returns int) 
 # Sum ---- '+'
 # Difference ---- '-'
+# Power ---- '**'

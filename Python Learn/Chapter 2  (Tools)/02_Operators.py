@@ -1,6 +1,6 @@
 # Arithmetic Operators 
-print("2*3=",2+3)
-print("2*3=",2-3)
+print("2+3=",2+3)
+print("2-3=",2-3)
 print("2*3=",2*3)
 print("2/3=",2/3)
 print("\n")
@@ -8,7 +8,7 @@ print("\n")
 # Assignment Operators
 a = 2
 print(a)
-a += 2
+a += 2  
 print(a)
 a -= 2
 print(a)

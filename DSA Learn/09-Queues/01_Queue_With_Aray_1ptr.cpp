@@ -5,6 +5,7 @@ typedef struct queue{
     int* queue;
     int size,rear;
 }queue;
+
 void create(queue *q){
     cout<<"Enter the size of the queue: ";
     cin>>q->size;
