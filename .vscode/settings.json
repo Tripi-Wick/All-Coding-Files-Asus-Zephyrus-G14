@@ -8,8 +8,10 @@
         "heapify",
         "imshow",
         "Joshi",
+        "Kaisen",
         "Kaur",
         "keras",
+        "Kumar",
         "mnist",
         "Movieflix",
         "playsound",
@@ -23,6 +25,7 @@
         "Trippi",
         "Trppi",
         "Witcher",
+        "Wordle",
         "yash"
     ],
     "files.associations": {
