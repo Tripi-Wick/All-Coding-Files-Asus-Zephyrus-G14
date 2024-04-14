@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/action">
+        <!-- Grouped Check boxes -->
+        <div>
+        Choose Your Subjects : 
+        <label for="CSE">CSE</label>
+        <input type="checkbox" name="sub" id="CSE">    <!--By Default an on value is passed if ticked-->
+        <label for="IT">IT</label>
+        <input type="checkbox" name="sub" id="IT" value="IT">
+        <label for="EEE">EEE</label>
+        <input type="checkbox" name="sub" id="EEE" value="EE">
+        </div>
+
+        <!-- Non Grouped Check boxes -->
+        <div>
+        Choose Your Subjects : 
+        <label for="ECE">ECE</label>
+        <input type="checkbox" name="Checkbox-1" id="ECE" value="ECE">
+        <label for="BIO">BIO</label>
+        <input type="checkbox" name="Checkbox-2" id="BIO" value="ECE">
+        </div>
+
+        <br>
+        <button>Submit</button>
+    </form>
+</body>
+</html>
