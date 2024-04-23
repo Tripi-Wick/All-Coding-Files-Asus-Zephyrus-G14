@@ -1,0 +1,19 @@
+h1 {
+    color: red;
+}
+
+h1::first-letter {
+    color: black;
+    font-weight: 700;
+}
+
+h3+p::first-line {
+    color: darkgoldenrod;
+    font-weight: lighter;
+    font-size: large;
+}
+
+p::selection {
+    color: burlywood;
+    background-color: lightseagreen;
+}

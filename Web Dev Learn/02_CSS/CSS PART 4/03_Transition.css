@@ -1,0 +1,37 @@
+div {
+    border: 2px solid black;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    padding-top: 80px;
+    padding-left: 70px;
+}
+div:hover{
+    background-color: deeppink;
+    border-radius: 100%;
+}
+
+/* Short Hand Property name | duration | timing-function | delay */
+#a {
+    transition: border-radius 2s ease-in 2ms;
+}
+
+#b{
+    transition: border-radius 2s ease-in-out 2ms;
+}
+
+#c{
+    transition: border-radius 2s linear 2ms;
+}
+
+#d{
+    transition: border-radius 2s step-start 2ms;
+}
+
+#e{
+    transition: border-radius 2s step-end 2ms;
+}
+
+#f{
+    transition: border-radius 2s ease 2ms;
+}

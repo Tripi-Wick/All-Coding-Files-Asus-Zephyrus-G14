@@ -1,0 +1,9 @@
+/* Method 1 */
+div[id=myid] {
+    color: green;
+}
+
+/* Method 2 */
+#myid p {
+    color: green;
+}

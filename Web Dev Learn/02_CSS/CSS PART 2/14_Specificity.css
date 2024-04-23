@@ -1,0 +1,19 @@
+/* Specificity */
+
+p {
+    color: red;
+}
+
+h3+p {
+    color: yellow;
+}
+
+div>h3+p {
+    color: turquoise;
+}
+
+
+/* Specificity is the priority level acc to which styling property is decided which is to be applied */
+/* It is 3 digit value, and the properties of selector having more value is applied */
+/* id> class/attribute/pseudo class > element/pseudo element */
+/* Above all these inline styling has the highest specificity nd it cant be changed   */

@@ -1,0 +1,26 @@
+h1 {
+    text-align: center;
+}
+
+h2 {
+    text-align: right;
+}
+
+h3 {
+    text-align: left;
+}
+
+p {
+    text-align: justify;
+}
+
+
+/* In this the alignment is not acc to the webpage, the alignment is acc parent element's space. */
+/* e.g. */
+/* h1 {
+    text-align: right;
+    border: solid;
+    border-color: black;
+    width: 50%;
+} */
+/* So acc to webpage its centre but acc to our css its right */

@@ -1,0 +1,49 @@
+div {
+    width: 100px;
+    height: 100px;
+    border: 1px black solid;
+    display: inline-block;
+    background-color: chartreuse;
+    margin: 2px;
+}
+
+#stat {
+    background-color: salmon;
+    position: static;
+    top: 20px;
+    /* No effect of top, right, bottom, left and z-idx values. */
+}
+
+#rel {
+    background-color: salmon;
+    position: relative;
+    top: 20px;   
+    left: 20px;
+    /* Offset is relative to itself (is ka apne center se) */
+    /* In this space is left for the element  */
+}
+
+#abs {
+    background-color: salmon;
+    position: absolute;
+    top: 100px;   
+    left: 100px;    
+    /* It is positioned relative to its closest-positioned ancestor. If none present then it measures from the top left corner.  */
+    /* In this no space is left for the element  */
+}
+
+#fix {
+    background-color: salmon;
+    position: fixed;
+    top: 110px;   
+    left: 110px;   
+    /* It measures from the top left corner */
+    /* If its any ancestor contains any following property then it behaves as the containing block : transform, perspective, filter */
+    /* In this no space is left for the element  */
+}
+
+#stk {
+    background-color: salmon;
+    position: sticky;
+    bottom: 0px; 
+}

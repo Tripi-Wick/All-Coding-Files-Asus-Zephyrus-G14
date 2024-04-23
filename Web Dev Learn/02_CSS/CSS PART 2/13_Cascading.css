@@ -1,0 +1,10 @@
+/* Cascading */
+p {
+    color: pink;
+}
+
+p {
+    color: burlywood
+}
+
+/* This says if the selectors are same then the latest declared one will be applied */

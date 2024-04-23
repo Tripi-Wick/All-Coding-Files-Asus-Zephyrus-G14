@@ -1,0 +1,27 @@
+div {
+    background-color: lightcoral;
+    border:solid;
+}
+/* Some properties like width, height, border etc. are not directly inherited. */
+/* Border only appeared on div not on others */
+
+
+h1 {
+    background-color: lightgoldenrodyellow;
+}
+
+p {
+    background-color: lightgreen;
+}
+
+input {
+    background-color: inherit;
+}
+
+button {
+    background-color: inherit;
+}
+
+/* Inheritance is the property of CSS due to which children's elements inherit the properties of their parent automatically. */
+/* Input Boxes and Buttons do not inherit properties by default. */
+/* To make them inherit we have to specify that explicitly. */

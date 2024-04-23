@@ -31,7 +31,7 @@ int main()
     fflush(stdin);
     gets(srr); 
 
-    for(; srr[i]!='\0'; i++){}      
+    for(; srr[i]!='\0'; i++){}      //Used to find the length of the string (not required as n is the length 🤦‍♂️)
 
     permute(srr,0,i-1);
 

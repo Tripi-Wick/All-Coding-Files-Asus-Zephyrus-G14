@@ -1,0 +1,56 @@
+div {
+    border: grey 1px dotted;
+    margin: 2px;
+    color: aliceblue;
+    background-color: aquamarine;
+    width: 40%;
+    text-align: center;
+    
+}
+
+#a{
+    margin: 20px;
+    transform: rotate(45deg);
+}
+
+#b {
+    margin-left: 200px;
+    transform: scale(2);
+}
+
+#c {
+    transform: scale(0.5,0.3);
+}
+
+#d {
+    transform: scaleX(0.2);
+    transform: scaleY(0.4);
+}
+
+#e {
+    transform: translate(20px,10px);
+}
+
+#f {
+    transform: translateX(20px);
+}
+
+#g {
+    transform: translateY(-10px);
+}
+
+#h {
+    transform: skew(30deg);
+}
+
+#i {
+    transform: skew(20deg) rotate(20deg) scale(2) translate(2px,3px);
+}
+
+/* all properties in this is like this */
+/* 
+        -x,-y   |   x,-y
+      ----------|---------
+        -x,y    |   x,y
+*/
+

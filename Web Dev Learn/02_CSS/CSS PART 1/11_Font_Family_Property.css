@@ -1,0 +1,18 @@
+h1{
+    font-family: Goudy Old Style;
+}
+
+h2 {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h3 {
+    font-family: Brush Script MT, Copperplate;
+}
+
+h4 {
+    font-family: sun, avant grade, Impact;
+}
+
+/* We can add backup font families like this nd priority is from left to right
+    like in h3 1st one is used nd in h4 3rd one is used as first two don't exists */

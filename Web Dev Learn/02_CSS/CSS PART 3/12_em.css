@@ -1,0 +1,27 @@
+#outer {
+    width: 400px;
+    height: 200px;
+    border: 2px red solid;
+    margin: 20px;
+    font-size: 20px;
+}
+
+#inner {
+    width: 10em;
+    height: 5em;
+    border: 2px black solid;
+    margin: 1em;
+    padding: 2em;
+}
+
+/* It is used to set properties in relation to font size */
+/* Padding Margin Width Height (Box Properties) Work acc to the self font size not of the parent */
+
+button {
+    font-size: 100px;
+    border: 4px green solid;
+    padding: 2em;
+    margin: 3em;
+}
+
+

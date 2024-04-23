@@ -1,0 +1,8 @@
+div {
+    padding: 20px;
+    border: 2px black solid;
+    text-align: center;
+    background-color: rgba(0, 255, 0, 0.2)
+}
+
+/* This is used to set the opacity of the color */

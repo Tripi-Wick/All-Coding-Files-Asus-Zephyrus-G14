@@ -1,0 +1,19 @@
+h1{
+    display: inline;
+    border: 2px black solid;
+    padding: 0px 20px;
+    margin-left: 1px;
+    background-color: blueviolet;
+    color: aliceblue;
+}
+
+span {
+    display: block;
+    border: 2px black solid;
+    padding: 0px 20px;
+    margin-top: 10px;
+    font-size: xx-large;
+    font-weight: bold;
+    background-color: lawngreen;
+    color: black;
+}

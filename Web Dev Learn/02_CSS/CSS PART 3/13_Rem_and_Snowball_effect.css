@@ -1,0 +1,14 @@
+/* Snowballing Effect */
+
+p {
+    font-size: 20px;
+}
+div{
+    font-size: 2em;
+}
+
+/* Solution: New Relative Unit : Root em : rem */
+
+div{
+    font-size: 2rem;
+}

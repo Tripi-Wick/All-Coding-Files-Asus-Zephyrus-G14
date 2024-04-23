@@ -1,0 +1,42 @@
+/* General Padding */
+#a {
+    text-align: center;
+    width: 300px;
+    border: 2px black solid;
+    padding: 10px;
+}
+
+/* Padding: top & bottom | left & right. */
+#b {
+    text-align: center;
+    width: 300px;
+    border: 2px black solid;
+    padding: 1px 30px;
+}
+
+/* Padding: top| left & right | bottom */
+#c {
+    text-align: center;
+    width: 300px;
+    border: 2px black solid;
+    padding: 2px 10px 7px;
+}
+
+/* Padding: top| right | bottom | left  */
+#d {
+    text-align: center;
+    width: 300px;
+    border: 2px black solid;
+    padding: 2px 10px 7px 20px;
+}
+
+/* Specific Padding */
+#e {
+    text-align: center;
+    width: 300px;
+    border: 2px black solid;
+    padding-left: 7px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 20px;
+}

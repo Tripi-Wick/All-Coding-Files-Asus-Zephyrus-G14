@@ -1,0 +1,9 @@
+div {
+    border-radius: 15px;
+    border: 3px chartreuse solid;
+}
+
+div{
+    border-top-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+}

@@ -1,0 +1,12 @@
+h1, h3{
+    color: red;
+}
+
+button {
+    color: rgb(5, 132, 132);
+    background-color:bisque ;
+}
+
+input {
+    color: blueviolet;
+}

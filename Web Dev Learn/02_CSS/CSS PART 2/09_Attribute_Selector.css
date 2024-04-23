@@ -1,0 +1,12 @@
+input[type] {
+    color: pink;
+    border-color: brown;
+}
+
+button[id=login]{
+    background-color: chartreuse;
+}
+
+button[id=signup]{
+    background-color: violet;
+}

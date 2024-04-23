@@ -1,0 +1,10 @@
+p+h3 {
+    color: cadetblue;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+hr+p {
+    color: chocolate;
+    font-weight: bolder;
+}

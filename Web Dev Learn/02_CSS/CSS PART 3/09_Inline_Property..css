@@ -1,0 +1,9 @@
+span {
+    border: 2px black solid;
+    /* Inline elements don't follow css properties vertically */
+    height: 200px;
+    width: 200px;
+    /* Inline elements support padding but will be overlapping other elements*/
+    padding: 100px;
+    /* background-color: aqua; */
+}

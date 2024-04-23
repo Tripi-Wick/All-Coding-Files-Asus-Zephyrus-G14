@@ -1,0 +1,17 @@
+.upvote {
+    color: antiquewhite;
+    background-color: green;
+    font-size: small;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.answer {
+    color: wheat;
+    background-color: red;
+    font-size: smaller;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    color: red;
+}

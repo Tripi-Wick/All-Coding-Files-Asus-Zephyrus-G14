@@ -1,0 +1,13 @@
+p {
+    color: red !important;
+}
+
+h3+p {
+    color: yellow;
+}
+
+div>h3+p {
+    color: turquoise;
+}
+
+/* Here important had the most priority even above the inline style mentioned */

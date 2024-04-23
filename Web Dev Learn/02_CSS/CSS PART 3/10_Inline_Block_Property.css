@@ -1,0 +1,11 @@
+div {
+    border: 2px black solid;
+    width: 200px;
+    height: 200px;
+    background-color: limegreen;
+    margin: 10px;
+    /* If we make it inline all the properties of block css will be removed */
+    display: inline;
+    /* SO in order to keep css of block element while making it inline we use inline-block property of display */
+    display: inline-block;
+}

@@ -1,0 +1,17 @@
+.text a {
+    color: yellowgreen;
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+nav ul li a { 
+    color: rgba(255, 99, 71, 0.692);
+}
+
+nav ul li {
+    color: violet;
+}
+
+h1 {
+    color: red;
+}

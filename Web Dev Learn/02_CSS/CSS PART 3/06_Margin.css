@@ -1,0 +1,51 @@
+div{
+    border: 10px black solid;
+}
+
+/* General Margin */
+#a {
+    text-align: center;
+    width: 300px;
+    border: 2px black solid;
+    margin: 50px;
+}
+
+/* Margin: top & bottom | left & right. */
+#b {
+    text-align: center;
+    width: 300px;
+    border: 2px black solid;
+    margin: 10px 30px;
+}
+
+/* Margin: top| left & right | bottom */
+#c {
+    text-align: center;
+    width: 300px;
+    border: 2px black solid;
+    margin: 20px 100px 7px;
+}
+
+/* Margin: top| right | bottom | left  */
+#d {
+    text-align: center;
+    width: 300px;
+    border: 2px black solid;
+    margin: 20px 1px 70px 200px;
+}
+
+/* Specific Margin */
+#e {
+    text-align: center;
+    width: 300px;
+    border: 2px black solid;
+    margin-left: 300px;
+    margin-right: 100px;
+    margin-top: 30px;
+    margin-bottom: 200px;
+}
+
+/* Removing Default Margin */
+div {
+    margin: 0;
+}

@@ -1,39 +1,44 @@
-#include<iostream>
-#include<stack>
-using namespace std;
-bool isValidParenthesis(string expression){
-    stack<char>st;
-    for(int i=0;i<expression.length();i++){
-        char ch = expression[i];
-        //for opening bracket
-        if(ch=='['|| ch == '{' || ch == '('){
-            st.push(ch);
-        }
-        else{
-            //means closing bracket
-            if(!st.empty()){ //to check stack is not empty
-                char t = st.top();
-                if((ch == '[' && t == ']')|| (ch == '{' && t == '}') || (ch == '(' && t ==')')){
-                   st.pop();
-                }else{
-                    return false;
+int Solution::solve(vector<string> &A)
+{
+    int n = A.size();
+    int m = A[0].size();
+    int s = 0;
+    int e = 0;
+    int max_length = 0;
+    char str = '\0';
+    char end = '\0';
+    int j = 0;
+    while (j < m)
+    {
+
+        str = A[s][j];
+        for (int i = 1; i < n; i++)
+        {
+            if (A[i][j] != str)
+            {
+                int temp = i - s + 1;
+                if (temp > max_length)
+                {
+                    max_length = temp;
+                    end = A[i][j];
+                    e = j;
                 }
-            } else{
-                return false;
+            }
+        }
+        j++;
+    }
+    int h = 0;
+    for (int i = 0; i < n; i++)
+    {
+        for (int g = 0; g < m; g++)
+        {
+            if (A[i][g] != str && A[i][g] != end && g != e)
+            {
+                h = max(h, (g - e + 1));
             }
         }
     }
-    return st.empty();    
-}
-int main(){
-    string s;
-    cin>>s;
-    bool t = isValidParenthesis(s);
-    if(t == true){
-        cout<<"Expression is valid"<<endl;
-    }
-    else{
-        cout<<"Expression is not valid"<<endl;
-    }
-    return 0;
+    long double ans = (h * max_length) / 2;
+
+    return ceil(ans);
 }

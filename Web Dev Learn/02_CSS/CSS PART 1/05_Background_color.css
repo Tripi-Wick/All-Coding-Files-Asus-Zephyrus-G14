@@ -1,0 +1,14 @@
+h1 {
+    background-color: gold;
+}
+
+p {
+    background-color: yellowgreen;
+}
+
+button {
+    background-color: firebrick;
+    /* background: rebeccapurple; */  
+}
+
+/*This can also be used to add color to background but this can also be used to many other things so when we only have to give color to background we use background color property*/

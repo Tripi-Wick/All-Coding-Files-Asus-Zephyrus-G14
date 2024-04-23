@@ -1,0 +1,47 @@
+section {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: yellow;
+    border: 1px black solid;
+}
+
+.eyesocket {
+    /* border: 1px black solid; */
+    width: 150px;
+    height: 50px;
+    margin-top: 20%;
+    margin-left: 12%;
+}
+
+.eye {
+    border: 1px black solid;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    display: inline-block;
+    background-color: black;
+    margin: 0% 0% 0% 10% ;
+}
+
+.eyeball {
+    border: 1px whitesmoke solid;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    display: inline-block;
+    background-color: whitesmoke;
+    margin: 0% 0% 0% 10% ;
+    transform: translate(20px,20px);
+}
+
+.mouth {
+    border: 1px black solid;
+    width: 100px;
+    height: 30px;
+    border-radius: 0% 0% 80px 80px;
+    display: inline-block;
+    background-color: black;
+    margin: 23% 0% 0% 26% ;
+    /* transform: translate(20px,20px); */
+}

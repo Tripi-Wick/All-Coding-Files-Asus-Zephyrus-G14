@@ -1,0 +1,12 @@
+div {
+    color: aquamarine;
+    background-color: beige;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    border-radius: 50%;
+}
+
+div {
+    box-shadow: 2px 2px 20px black;
+}

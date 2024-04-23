@@ -1,0 +1,13 @@
+nav>ul {
+    color: red;
+}
+
+div>input {
+    color: pink;
+}
+
+main>p {
+    color: cadetblue;
+}
+
+/* In this we can only select immediate child */

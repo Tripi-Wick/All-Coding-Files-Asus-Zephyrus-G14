@@ -1,0 +1,15 @@
+#outer {
+    width: 400px;
+    height: 200px;
+    border: 2px red solid;
+    margin: 20px;
+}
+
+#inner {
+    width: 50%;
+    height: 50%;
+    border: 2px black solid;
+    margin: 1%;
+}
+
+/* It is used in relation to the parent */

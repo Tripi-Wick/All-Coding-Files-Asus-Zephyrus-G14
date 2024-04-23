@@ -1,0 +1,18 @@
+div {
+    border-width: 4px;
+    border-color: blueviolet;
+    border-style: solid;
+}
+
+/* Shortcut */
+div {
+    border: 3px pink solid;
+}
+
+/* More Specific */
+div{
+    border-top: 4px red dotted;
+    border-bottom: 3px darkred double;
+    border-right: 5px orangered groove;
+    border-left: 1px darkcyan solid;
+}
