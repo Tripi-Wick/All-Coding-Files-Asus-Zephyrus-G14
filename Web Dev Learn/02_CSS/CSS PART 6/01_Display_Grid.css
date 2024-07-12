@@ -1,0 +1,15 @@
+#cont {
+    border: 2px black solid;
+    background-color: azure;
+    width: 400px;
+    height: 300px;
+    margin: 20px auto;
+    display: grid;
+}
+
+div {
+    border: 1px black solid;
+    height: 40px;
+    width: 30px;
+    margin: 1px;
+}

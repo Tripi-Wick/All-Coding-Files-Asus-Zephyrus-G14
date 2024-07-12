@@ -1,0 +1,18 @@
+#flex {
+    display: flex;
+    border: 1px black solid;
+    width: 100px;
+    height: 100px;
+}
+
+div {
+    border: .1px black solid;
+    width: 100px;
+    height: 20px;
+}
+
+/* 	• When a parent is made flex container, its children by default becomes flex items.
+	• Basically it helps us to contain items in one box without overflowing.
+	• By default direction of items is horizontal (row), but we can alter it.
+    • In this only direct children becomes the items of the grid not the grand children.
+*/

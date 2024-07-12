@@ -1,0 +1,38 @@
+div{
+    border: 2px black solid;
+    background-color: yellow;
+    width: 400px;
+    height: 100px;
+    font-size: x-large;
+    text-align: center;
+    padding-top: 10%;
+}
+
+@media (width: 500px){
+    div {
+        background-color: pink;
+        font-size: xx-small ;
+    }
+}
+
+@media (min-width: 501px){
+    div {
+        background-color: green;
+        font-size:large;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 700px){
+    div {
+        background-color: red;
+        font-size: small;
+    }
+}
+
+@media (orientation : portrait){
+    div{
+        background-color: silver;
+        width: 600px;
+        height: 200px;
+    }
+}

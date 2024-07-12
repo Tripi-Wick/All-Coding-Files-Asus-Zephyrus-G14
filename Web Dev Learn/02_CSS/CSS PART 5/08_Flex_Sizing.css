@@ -1,0 +1,58 @@
+h1 {
+    text-align: center;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+#container {
+    height: 300px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+
+}
+
+#v {
+    flex-basis: 20px;
+    /* Sets the default value for the size of an element and turn off sizing */
+}
+#b {
+    flex-grow: 2;
+    max-width: 200px;
+    /* Grows if there is extra space */
+}
+#y {
+    flex-shrink: 2;
+    min-width: 20px;
+    /* Shrinks if there is extra space */
+}
+
+#i{
+    flex: 1 2 10px;
+    /* grow | shrink | basis */
+}
+
+#g{
+    flex: 2 4px;
+    /* grow | basis */
+}
+
+#o{
+    flex: 4;
+    /* grow */
+}
+
+#r{
+    flex: 2px;
+    /* basis */
+}
+
+
+/* Basis is with unit */
+/* grow and shrink are unitless and grow is choose bny default */

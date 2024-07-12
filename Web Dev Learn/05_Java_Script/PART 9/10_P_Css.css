@@ -1,0 +1,12 @@
+.blue_white {
+    background-color: blue;
+    color: white;
+}
+
+.decoration {
+    text-decoration: underline solid purple;
+}
+
+.bold{
+    font-weight: bold;
+}

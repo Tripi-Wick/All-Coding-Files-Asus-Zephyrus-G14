@@ -1,0 +1,327 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    background-color: black;
+    color: whitesmoke;
+    overflow: hidden;
+}
+
+.main {
+    display: flex;
+    padding: 0.5rem;
+}
+
+.sidebar {
+    background-color: #121212;
+    width: 420px;
+    border-radius: 1rem;  /*16px*/
+    margin-right: 0.7rem;
+}
+
+.main-content {
+    background-color: #121212;
+    height: 100vh;
+    flex: 1;
+    border-radius: 1rem;
+    overflow: auto;
+    padding: 0 1.5rem 0 1.5rem;
+}
+
+.music-player {
+    background-color: #121212;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 80px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.nav {
+    background-color: rgba(61, 61, 61, 0.467)  ;
+    border-radius: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 119px;
+    padding: 0.5rem 0.75rem;
+}
+
+.nav-opt {
+    line-height: 2.5rem;
+    opacity: 0.7;
+    padding: 0.5rem 0.75rem;
+    font-size: 1.5rem;
+}
+.nav-opt:hover {
+    opacity: 1;
+}
+
+.nav-opt a {
+    margin-left: 1rem;
+}
+
+.lib {
+    background-color: rgba(61, 61, 61, 0.467)  ;
+    border-radius: 1rem;
+    height: 100%;
+    margin-top: 0.8rem;
+    padding: 0.5rem 0.75rem;
+}
+
+.options {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.options img {
+    height: 1.75rem;
+    width: 1.75rem;
+}
+
+.lib-box {
+    background-color: rgba(98, 98, 98, 0.6);
+    height: 8rem;
+    border-radius: 0.75rem;
+    margin: 2rem 0.5rem 0.5rem 0.5rem;
+    padding: 0.6rem 1.2rem;
+    line-height: 2rem;
+}
+
+.box-p1 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    
+}
+
+.box-p2 {
+    font-size: 1rem;
+    opacity: 0.9;
+}
+
+.badge {
+    color: #121212;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 100px;
+    padding: 0.2rem 1rem;
+    font-weight: 700;
+    margin-top: 0.5rem;
+
+    height: 2rem;
+    width: fit-content;
+    opacity: 0.9;
+}
+
+.badge:hover {
+    color: black;
+    background-color: white;
+    opacity: 1;
+}
+
+.sticky-nav {
+    position: sticky;
+    top: 0;
+    background-color: #121212 ;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    padding: 1rem 0 1rem 0;
+    z-index: 10;
+}
+
+.sticky-nav-but{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sticky-nav-opt{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.sticky-nav-but>i, .sticky-nav-opt>i {
+    font-size: 1.8rem;
+    margin: 0 0.5rem 0 1rem;
+}
+
+.sticky-nav-opt>button{
+    margin-top: 0;
+    margin: 0 0.5rem 0 0.3rem;
+}
+
+.b-1:hover {
+    background-color: lightgreen;
+}
+
+.b-2{
+    background-color: #262626;
+    color: whitesmoke;
+}
+
+.b-2:hover {
+    background-color: green;
+}
+
+@media (max-width: 1000px){
+    .hide {
+        display: none;
+    }
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card-box{
+    display: flex;
+    flex-direction: column;
+    margin-top: 1rem;
+}
+
+.card{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #2d2d2d87;
+    width: 200px;
+    border-radius: 0.6rem;
+    color: whitesmoke;
+    padding: 0.5rem;
+    margin: 1rem;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 0.5rem;
+}
+
+.card-title {
+    font-weight: 600;
+    padding-top: 3px;
+}
+
+.card-info {
+    font-size: 0.6rem;
+    opacity: 0.8;
+    padding-bottom: 3px;
+}
+
+.footer {
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.line {
+    width: 90%;
+    height: 3   0%;
+    border-top: 1px solid white;
+    opacity: 0.4;
+}
+
+
+.music-player{
+    display: flex;
+    flex-direction: row;
+}
+
+.album {
+    display: flex;
+    flex: 25%;
+    flex-direction: row;
+}
+
+.ctrls{
+    flex: 25%;
+}
+
+.player {
+    flex: 50%;
+    margin-left: 10px;
+}
+
+.player-ctrls{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 0.5rem;
+}
+
+.progress-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.time{
+    margin: 0 1rem 0 1rem;
+}
+
+.player-ctrls{
+    font-size: 1.5rem;
+}
+
+.bar::-webkit-slider-thumb {
+    background-color: #1bd760;
+}
+
+.bar::-ms-track{
+    background-color: green;
+}
+
+
+.pic{
+    width: 9rem;
+    height: 9rem;
+    margin: 0.3rem 0.3rem 0.3rem 0.5rem;
+
+}
+.pic img{
+    border-radius: 0.2rem;
+    height: 5.5rem;
+    width: 7rem;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.name{
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 1rem;
+}
+.subhead{
+    font-size: 12px;
+    font-weight: 400;
+    padding-bottom: 1rem;
+    opacity: 0.8;
+
+}
+
+.ctrl{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    margin-top: 1rem;
+}
+
+.bar-2{
+    appearance: none;
+    height: .2rem;
+    border-radius: 2rem;
+}

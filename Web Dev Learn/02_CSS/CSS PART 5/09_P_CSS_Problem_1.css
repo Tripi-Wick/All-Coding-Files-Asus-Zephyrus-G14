@@ -1,0 +1,23 @@
+#container{
+    background-color: whitesmoke;
+    border: 2px solid cyan;
+    height: 400px;
+    width: 400px;
+    border-radius: 2%;
+    margin: 20px auto;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: space-evenly;
+}
+
+div {
+    font-size: 50px;
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+    border: 2px solid black;
+    background-color: gray;
+    text-align: center;
+}

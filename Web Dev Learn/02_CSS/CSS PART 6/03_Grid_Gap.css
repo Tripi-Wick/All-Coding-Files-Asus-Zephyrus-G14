@@ -1,0 +1,28 @@
+#cont {
+    border: 2px black solid;
+    background-color: azure;
+    width: 400px;
+    height: 300px;
+    margin: 20px auto;
+
+    display: grid;
+
+    grid-template-rows: 1fr 2fr 3fr 4fr;
+    grid-template-columns: 1fr 2fr;
+    /* row-gap: 10px;
+      column-gap: 20px; */
+
+    /* Short-Hand: */
+    gap: 50px 10px;
+    
+
+}
+
+div {
+    border: 1px black solid;
+    height: auto;
+    width: auto;
+    margin: 1px;
+}
+
+

@@ -1,0 +1,53 @@
+div {
+    border: .1px black solid;
+    width: 20px;
+    height: 20px;
+}
+
+h3{
+    border: .1px black solid;
+    width: 120px; 
+    height: 25px;
+    margin: 0px;
+}
+
+#r {
+    display: flex;
+    flex-direction: row;
+    border: 1px black solid;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+#rr {
+    display: flex;
+    flex-direction: row-reverse;
+    border: 1px black solid;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
+#c {
+    display: flex;
+    flex-direction: column;
+    border: 1px black solid;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
+#cr {
+    display: flex;
+    flex-direction: column-reverse;
+    border: 1px black solid;
+    width: 150px;
+    height: 150px;
+    margin-top: 20px;
+}
+
+
+
+/* 	• Row : Left to right
+	• Row reverse : right to left
+	• Column : Top to bottom
+    • Column reverse : bottom to top */

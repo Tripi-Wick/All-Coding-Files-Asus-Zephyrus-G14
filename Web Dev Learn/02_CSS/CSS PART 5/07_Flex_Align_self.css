@@ -1,0 +1,35 @@
+h1 {
+    text-align: center;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+    text-align: center;
+}
+
+#container {
+    height: 300px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+
+}
+
+#se {
+    align-self: center;
+    /* ALigns item at the center of the cross axis */
+    
+    /* align-self: flex-start; */
+    /* ALigns item at the start of the cross axis */
+    
+    /* align-self: flex-end; */
+    /* ALigns item at the end of the cross axis */
+    
+    /* align-self: baseline; */
+    /* ALigns acc to the text i.e. text at same level */
+}
+
+/* This does not manipulate space */

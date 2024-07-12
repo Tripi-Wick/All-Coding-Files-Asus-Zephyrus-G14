@@ -1,0 +1,58 @@
+#container{
+    height: 50px;
+    width: 900px;
+    background-color: pink;
+    border: 1px solid cyan;
+    border-radius: 7px;
+    
+    display: flex;
+    flex-wrap: wrap;
+}
+
+div{
+    width: 80px;
+    height: 50px;
+    font-size: 24px;
+    /* border: 1px solid cyan; */
+    justify-content: space-between;
+    align-content: space-evenly;
+    justify-content: start;
+    margin-left: 5px; 
+    
+}
+
+#l {
+    /* border: 1px solid rebeccapurple; */
+    flex-basis: 100px;
+}
+
+
+
+/* 
+Apna College way
+#container{
+    height: 50px;
+    width: 900px;
+    background-color: pink;
+    border: 1px solid cyan;
+    border-radius: 7px;
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: space-evenly;
+}
+
+div{
+    width: 80px;
+    height: 50px;
+    font-size: 24px;
+    border: 1px solid cyan;
+    margin-left: 5px; 
+    line-height: 45px;   
+}
+
+#l {
+    border: 1px solid rebeccapurple;
+    flex-basis: 100px;
+} */

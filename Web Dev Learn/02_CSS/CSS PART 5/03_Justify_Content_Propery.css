@@ -1,0 +1,93 @@
+div {
+    border: .1px black solid;
+    width: 20px;
+    height: 20px;
+}
+
+h3{
+    border: .1px black solid;
+    width: 220px; 
+    height: 25px;
+    margin: 0px;
+    text-align: center;
+}
+
+
+
+/* TO Manipulate the elements acc to the main axis  */
+#r {
+    display: flex;
+    flex-direction: row;
+    border: 1px black solid;
+    width: 500px;
+    height: 100px;
+    margin-top: 20px;
+
+    justify-content: flex-start;
+}
+
+#r1 {
+    display: flex;
+    flex-direction: row;
+    border: 1px black solid;
+    width: 500px;
+    height: 100px;
+    margin-top: 20px;
+
+    justify-content: center;
+}
+
+#rr {
+    display: flex;
+    flex-direction: row-reverse;
+    border: 1px black solid;
+    width: 500px;
+    height: 100px;
+    margin-top: 20px;
+
+    justify-content: flex-start;
+}
+/* ○ These work on the space not the element i.e. in these first there will not be space between the elements. */
+
+/* To Manipulate the elements acc to the space in main axis */
+#r2 {
+    display: flex;
+    flex-direction: row;
+    border: 1px black solid;
+    width: 500px;
+    height: 100px;
+    margin-top: 20px;
+
+    justify-content: space-between;
+}
+/* 		○ aligns acc to the space between the elements equally.
+		○ Left most nd the right most element will have no space between the walls of flexbox and them.
+*/
+
+#r3 {
+    display: flex;
+    flex-direction: row;
+    border: 1px black solid;
+    width: 500px;
+    height: 100px;
+    margin-top: 20px;
+
+    justify-content: space-around;
+}
+/* 		○ aligns acc to the space between the elements equally. 
+		○ Left most nd the right most element will have less space between the walls of flexbox and them as compared to the space between elements.
+*/
+
+#r4 {
+    display: flex;
+    flex-direction: row;
+    border: 1px black solid;
+    width: 500px;
+    height: 100px;
+    margin-top: 20px;
+
+    justify-content: space-evenly;
+}
+/* 		○ aligns acc to the space between the elements equally. 
+        ○ Left most nd the right most element will have equal space between the walls of flexbox and them.
+*/

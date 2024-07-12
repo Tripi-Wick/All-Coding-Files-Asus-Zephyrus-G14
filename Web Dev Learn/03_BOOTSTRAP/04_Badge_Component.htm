@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+    <span class="badge bg-danger">6</span>   <!--Adds it to the class of badges and bg-danger -->
+    <h1>Help<span class="badge bg-danger">10+</span></h1>
+    <button class="badge bg-danger">99+</button>
+    <button class="btn btn-primary">
+        Followers
+        <span class="badge bg-danger">20+</span>
+    </button>
+    <button class="btn btn-primary position-relative">
+        Notification
+        <span class="position-absolute top=0 start=100 translate-middle badge rounded-pill bg-danger">20+</span>  <!--Helps to set the positions of this span-->
+    </button>
+    <button class="btn btn-primary position-relative">
+        Notification
+        <span class="position-absolute top-0 start-100 translate-middle p-2 bg-danger badge border border-light rounded">
+            <span class="visually-hidden">20+          <!--Helps to make this hidden-->
+            </span>
+        </span>
+    </button>
+</body> 
+</html>

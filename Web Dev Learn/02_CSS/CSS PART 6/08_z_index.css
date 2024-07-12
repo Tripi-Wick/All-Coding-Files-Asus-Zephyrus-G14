@@ -1,0 +1,31 @@
+div{
+    width: 200px;
+    height: 200px;
+}
+h1 {
+    text-align: center;
+}
+
+#one{
+    border: 2px black solid;
+    background-color: peru;
+    z-index: 0;
+}
+#two{
+    border: 2px black solid;
+    background-color: gray;
+    position: relative;
+    bottom: 50px;
+    z-index: 1;
+}
+
+#three{
+    border: 2px black solid;
+    background-color: ghostwhite;
+    position: relative;
+    bottom: 90px;
+    z-index: -1;
+}
+
+
+/* The more negative the more below, the more positive the more above  */

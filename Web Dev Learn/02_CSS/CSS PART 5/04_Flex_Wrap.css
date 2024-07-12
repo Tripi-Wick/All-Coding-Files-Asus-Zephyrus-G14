@@ -1,0 +1,25 @@
+h1 {
+    text-align: center;
+}
+
+div {
+    width: 100px;
+    height: 100px;
+}
+
+#container {
+    height: 500px;
+    width: 80%;
+    background-color: azure;
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    justify-content: start;
+    flex-wrap: wrap;
+    /*  The size of the elements remains original and goes to the next line. */
+    /*  Wraps elements evenly acc to the space in the flex box */
+    flex-wrap: wrap-reverse;
+    /* The elements get wrapped along the reverse direction of cross axis. */
+    /* flex-wrap: nowrap; */
+    /* The default property */
+}

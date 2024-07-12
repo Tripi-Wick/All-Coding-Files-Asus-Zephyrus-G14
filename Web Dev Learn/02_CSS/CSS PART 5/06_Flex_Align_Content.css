@@ -1,0 +1,112 @@
+div {
+    border: .1px black solid;
+    width: 200px;
+    height: 20px;
+    background-color: azure;
+}
+
+h3{
+    border: .1px black solid;
+    width: 220px; 
+    height: 25px;
+    margin: 0px;
+    background-color: azure;
+    text-align: center;
+}
+
+
+
+/* TO Manipulate the elements acc to the cross axis  */
+#r {
+    display: flex;
+    flex-wrap: wrap;
+
+    background-color: aliceblue ;
+    border: 1px black solid;
+    width: 500px;
+    height: 100px;
+    margin-top: 20px;
+
+    align-content: flex-start;
+}
+
+#r1 {
+    display: flex;
+    flex-wrap: wrap;
+
+    background-color: aliceblue ;
+    flex-direction: row;
+    border: 1px black solid;
+    width: 500px;
+    height: 100px;
+    margin-top: 20px;
+
+    align-content: center;
+}
+
+#rr {
+    display: flex;
+    flex-wrap: wrap;
+
+    background-color: aliceblue ;
+    flex-direction: row;
+    border: 1px black solid;
+    width: 500px;
+    height: 100px;
+    margin-top: 20px;
+
+    align-content: flex-end;
+}
+/* ○ These work on the space not the element i.e. in these first there will not be space between the elements. */
+
+/* To Manipulate the elements acc to the space in main axis */
+#r2 {
+    display: flex;
+    flex-wrap: wrap;
+
+    background-color: aliceblue ;
+    flex-direction: row;
+    border: 1px black solid;
+    width: 500px;
+    height: 100px;
+    margin-top: 20px;
+
+    align-content: space-between;
+}
+/* 		○ aligns acc to the space between the elements equally.
+		○ bottom most nd the top most element will have no space between the walls of flexbox and them.
+*/
+
+#r3 {
+    display: flex;
+    flex-wrap: wrap;
+
+    background-color: aliceblue ;
+    flex-direction: row;
+    border: 1px black solid;
+    width: 500px;
+    height: 100px;
+    margin-top: 20px;
+
+    align-content: space-around;
+}
+/* 		○ aligns acc to the space between the elements equally. 
+		○ bottom most nd the top most element will have less space between the walls of flexbox and them as compared to the space between elements.
+*/
+
+#r4 {
+    display: flex;
+    flex-wrap: wrap;
+
+    background-color: aliceblue ;
+    flex-direction: row;
+    border: 1px black solid;
+    width: 500px;
+    height: 100px;
+    margin-top: 20px;
+
+    align-content: space-evenly;
+}
+/* 		○ aligns acc to the space between the elements equally. 
+        ○ bottom most nd the top most element will have equal space between the walls of flexbox and them.
+*/
