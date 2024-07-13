@@ -1,0 +1,12 @@
+{
+  "name": "06_node_js",
+  "version": "1.0.0",
+  "main": "01_Node.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Trip",
+  "license": "ISC",
+  "description": "This is for 07_Test_FIle",
+  "type": "module"
+}
