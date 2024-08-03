@@ -1,0 +1,104 @@
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: bisque;   
+}
+
+.heading{
+    /* border: 1px black solid; */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif    ;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 45px;
+    color: rgb(143, 1, 1);
+}    
+
+.content{
+    margin: 20px 10px 0px 10px;
+    /* border: 2px black solid; */
+}
+
+hr{
+    width: 200px;
+}
+
+.post{
+    margin-top: 10px;
+    border: 2px black solid;
+    background-color: rgba(255, 255, 255, 0.622);
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.username{
+    padding: 5px 0 3px 0;
+    font-weight: 800;
+    font-size: 25px;
+    color: rgb(196, 44, 44);
+}
+
+.text{
+    word-wrap: break-word;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 6px 0 10px 0;
+}
+
+.options{
+    display: flex;
+}
+.detail{
+    margin-left: 2px;
+    text-decoration: underline;
+    font-size:medium;
+    font-weight: 300;
+    color:rgb(0, 150, 0);
+}
+
+.edit{
+    margin-left: 11px;
+    text-decoration: underline;
+    font-size:medium;
+    font-weight: 300;
+    color:rgb(0, 164, 148);
+    /* border: 1px solid ;
+    border-radius: 5px;
+    padding: 2px 5px 2px;
+    background-color: black; */
+}
+
+
+.delete{
+    margin-left: 12px;
+    text-decoration: underline;
+    font-size:medium;
+    font-weight: 300;
+    color:rgb(231, 0, 0);
+}
+
+button{
+    border: 0;
+    background-color: inherit;
+    margin-left: 12px;
+    text-decoration: underline;
+    font-size:medium;
+    font-weight: 300;
+    color:rgb(231, 0, 0);
+}
+
+.new{
+    font-family:'Segoe UI';
+    text-decoration: none;
+    margin: 0px 10px 0px 11px;
+    color: black;
+    padding: 4px 10px;
+    height: 35px;
+    font-size: large;
+    font-weight: 650;
+    background-color: rgba(222, 184, 135, 0.773);
+    border: 1.2px solid black;
+    border-radius: 10px;
+}

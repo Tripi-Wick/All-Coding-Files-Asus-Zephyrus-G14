@@ -1,0 +1,8 @@
+.price{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:center;
+    background-color: gold;
+    border-radius: 0px 0px 12px 12px  ;
+}

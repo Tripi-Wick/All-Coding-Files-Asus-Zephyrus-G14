@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>This is a shallow fake instagram page of @<%=id.name%></h1>
+    <hr>
+    <h2>Followers : <%=id.followers %> &nbsp &nbsp &nbsp
+        Following : <%=id.following %></h2>
+    <div>
+        <% for(i of id.posts){ %>
+            <img src="<%=i.image %>" alt="FUCK YOU">
+            <br>
+            <button>Likes: <%= i.likes %></button> &nbsp &nbsp
+            <button>Comments: <%= i.comments %></button>
+            <br>
+            <br>
+        <% } %> 
+    </div>
+</body>
+</html>

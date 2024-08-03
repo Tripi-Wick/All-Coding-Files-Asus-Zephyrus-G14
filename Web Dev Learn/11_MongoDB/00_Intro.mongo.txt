@@ -1,0 +1,42 @@
+MonogoDB stores data in BSON data formate i.e. 'Binary JSON' i.e. js object form but in binary form not in text
+JSON is space insufficient BSON is better 
+Monogo stores data in form of documents (BSON Docs)
+COllections MongoDB stores documents in COllections
+Like in sql documents == rows and collections == tables
+Data in mongodb is case sensitive
+
+Create DB
+use databaseName
+
+Create Collection
+db.collection.insertOne()
+// If there is no collection then this will create one
+
+Insert Data
+db.collection.insertOne()
+db.collection.insertMany()
+//We add data in key value pairs
+
+To show Collection
+db.collection.find({key:Value,key:value})  //returns a cursor i.e. a reference of the original document 
+db.collection.findOne()   //gives the first found one, returns actual document
+//we pass condition also as key value pair
+db.collection.find({"key.internalKey":value}) // used to give filter acc to a nested value
+
+Operators
+In mongodb we use $ before any operator
+db.collection.find({key:{$operator:value}});
+db.collection.find({$or: [{key:value},{key:value}]})
+
+Update in DB
+db.collection.update0ne( <filter> , <update>, <options> )
+db.collection.updateMany( <filter> , <update>, <options> )
+db.collection.replaceOne( <filter> , <update>, <options> )
+// we first add a filter i.e. which thing should be updated
+// then what we gotta update use as $set 
+// then options
+
+Delete in DB
+db.deleteOne(filter, options) //to Delete one
+db.deleteMany(filter, options) //to Delete many
+db.dropDatabase()  //to delete database

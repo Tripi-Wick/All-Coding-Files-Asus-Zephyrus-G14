@@ -1,0 +1,10 @@
+.lapCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-around;
+    border: 1px solid black;
+    height: max-content ;
+    border-radius: 12px;
+    width: 25em;
+}

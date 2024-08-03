@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>New Post Form</title>
+    <link rel="stylesheet" href="/new.css">
+</head>
+<body>
+    <h1>NEW POST FORM</h1>
+    
+    <div class="form">
+        <form action="http://localhost:8080/posts" method="post">
+            <div class="ques">
+                <label for="user">User Name :</label>
+                <input type="text" name="username" id="user" >
+            </div>
+            <div >
+            <div class="ques">
+                <h2 class="con">Content :</h2>
+                <textarea name="content" id="text" placeholder="Type..."></textarea>
+            </div>
+            <button>Submit</button>
+        </form>
+    </div>
+</body>
+</html>
+
+
+
+
+<!-- The issue you're experiencing is likely due to the way relative paths are being resolved in your EJS template. When you use relative paths in your CSS links or other static assets, they are resolved based on the URL of the current page.
+
+If your EJS file (`new.ejs`) includes a CSS file like this:
+
+```html
+<link rel="stylesheet" href="new.css">
+```
+
+When you visit `http://localhost:8080/posts/new`, the browser will look for the CSS file at `http://localhost:8080/posts/new.css` because the relative path is resolved from the current URL.
+
+To resolve this, you can change the path to be absolute by starting with a `/`:
+
+```html
+<link rel="stylesheet" href="/new.css">
+```
+
+This way, it will always look for `http://localhost:8080/new.css` regardless of the current URL path. -->

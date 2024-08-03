@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>table, th, td{border: black 1px solid;}</style>
+</head>
+<body>
+    <table>
+        <th><h2>id</h2></th>
+        <th><h2>username</h2></th>
+        <th><h2>email</h2></th>
+        <th><h2>ALter</h2></th>
+        <%for(data of result){ %>
+        <tr>
+            <td><h3><%=data.id%></h3></td>
+            <td><h3><%=data.username%></h3></td>
+            <td><h3><%=data.email%></h3></td>
+            <td><a href="/user/<%=data.id%>"><h3>Edit</h3></a></td>
+        </tr>
+        <%}%>
+    </table>
+
+</body>
+</html>
