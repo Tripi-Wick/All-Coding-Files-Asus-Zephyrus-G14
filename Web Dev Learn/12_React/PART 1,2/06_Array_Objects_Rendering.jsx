@@ -28,7 +28,7 @@
 // }
 
 //Best Way 
-export default function Demo({ array, object }) {
+export default function Demo({ array }) {
     return (
         <>
             <h1>{array.map((array) => <li> {array} </li>)}</h1>

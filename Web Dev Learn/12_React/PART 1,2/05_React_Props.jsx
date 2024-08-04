@@ -4,6 +4,8 @@
 // Props by default are objects so we can directly use there keys by using braces
 // By default we can't send numbers as numbers so we have to send them as strings if we want to send a number we'll have to use braces
 // These are used to make our components more versatile and dynamic
+// We can also give functions as props as functions are 1st class objects in js 
+
 
 // export default function ReportCard(props){
 //     return(
