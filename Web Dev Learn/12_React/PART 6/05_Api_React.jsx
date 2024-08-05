@@ -20,8 +20,8 @@ export default function Joke() {
     
     // This is the way we pass async function in it
     useEffect(()=>{
-        async () => {
-        // async function newJoke () {
+        // async () => {
+        async function newJoke () {
             let response = await fetch(url);
             let responseJson = await response.json();
             console.log(responseJson)

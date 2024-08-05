@@ -12,7 +12,7 @@ import {useState} from 'react';
 export default function FormComponent(){
     let [val,setVal] = useState("")
 
-    function handleSubmit(){
+    function handleSubmit(event){
         setVal(event.target)
     }
 
