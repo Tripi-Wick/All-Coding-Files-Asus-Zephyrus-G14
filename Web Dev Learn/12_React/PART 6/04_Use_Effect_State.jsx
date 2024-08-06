@@ -11,24 +11,28 @@ export default function Counter(){
     let [count, setCount] = useState(0);
     let [count2, setCount2] = useState(0);
 
+
     let CountInc = () =>{
         setCount(count+1);
     }
 
+    
     let CountInc2 = () =>{
         setCount2(count2+1);
     }
-
+    
+    
     // useEffect(()=>{
-    //     console.log('You Clicked Me');
-    // })
-    // useEffect(()=>{
-    //     console.log('You Clicked Me');
-    // },[])
-
+        //     console.log('You Clicked Me');
+        // })
+        // useEffect(()=>{
+            //     console.log('You Clicked Me');
+            // },[])
+            
     useEffect(()=>{
-        console.log('You Clicked Me');
-    },[count])
+        console.log('hello');
+        // console.log('You Clicked Me');
+    },[])
 
     return(
         <>

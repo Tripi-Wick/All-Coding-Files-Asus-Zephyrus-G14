@@ -15,7 +15,7 @@ export default function SearchBar({updateInfo}){
         updateInfo(await ApiCall(query));
         setQuery('');
     }
-    
+        
     function handleChange(event){
         setQuery(event.target.value)
     }

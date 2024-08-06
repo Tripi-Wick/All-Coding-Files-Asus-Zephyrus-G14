@@ -9,14 +9,17 @@
 // Hooks can only be called inside a component, there can be multiple hooks in one component
 // Value is updated at the re-rendered state hence firstly it is displayed as pre value when we console log it as setState method is asynchronous
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 
 export default function Counter(){
     let [count, setCount] = useState(0);
 
-    let CountInc = () =>{
+    let CountInc = async () =>{
         setCount(count+1);
+        // console.log(count);
     }
+    
+    useEffect(()=>{console.log(count)})
 
     return(
         <>

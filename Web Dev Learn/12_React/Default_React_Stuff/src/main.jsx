@@ -21,7 +21,7 @@ import ReactDOM from 'react-dom/client'
 // import ClickButton from '../../PART 3/01_Handling_Events'
 // import EventObj from '../../PART 3/02_Event_Object'
 // import Counter from '../../PART 3/03_State_Object_Need'
-// import Counter from '../../PART 3/04_Hooks_and_useState'
+import Counter from '../../PART 3,4/04_Hooks_and_useState'
 // import Like from '../../PART 3/05_P_Like_and_click_Counter'
 // import Counter from '../../PART 3/06_Call_Backs'
 // import Counter from '../../PART 3,4/07_Function_as_render_function'
@@ -34,7 +34,7 @@ import ReactDOM from 'react-dom/client'
 // import FormComponent from '../../PART 6/02_Common_Handler_multiple_Inputs'
 // import FormComponent from '../../PART 6/03_Validation'
 // import Counter from '../../PART 6/04_Use_Effect_State'
-import Joke from '../../PART 6/05_Api_React'
+// import Joke from '../../PART 6/05_Api_React'
 
 
 ReactDOM.createRoot(document.getElementById('root')).render(
@@ -99,7 +99,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     {/* <Counter /> */}
 
     {/* {4} */}
-    {/* <Counter /> */}
+    <Counter />
 
     {/* {5} */}
     {/* <Like /> */}
@@ -131,7 +131,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     {/* <Counter /> */}
 
     {/* {5} */}
-    <Joke />
+    {/* <Joke /> */}
 
   </React.StrictMode>
 )
